@@ -5,7 +5,7 @@
 	<name>User-Agent-Utils</name>
 	<url>http://java.net/projects/user-agent-utils</url>
 	<artifactId>UserAgentUtils</artifactId>
-	<version>1.6</version>
+	<version>1.6.1</version>
 	<description>Utility classes to handle user-agents.</description>
 	<licenses>
 		<license>
@@ -126,9 +126,9 @@
 					<excludes>
 						<exclude>**/Test*.java</exclude>
 					</excludes>
-					<sourcepath>src/main/java</sourcepath> 
-				    <subpackages>nl.bitwalker.useragentutils</subpackages> 
-					<source>1.5</source>					
+					<sourcepath>src/main/java</sourcepath>
+				    <subpackages>nl.bitwalker.useragentutils</subpackages>
+					<source>1.5</source>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -139,7 +139,7 @@
 			</plugin>
 		</plugins>
 	</reporting>
-	<dependencies>		
+	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
