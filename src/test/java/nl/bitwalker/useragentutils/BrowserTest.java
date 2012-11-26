@@ -141,6 +141,10 @@ public class BrowserTest {
 			"Mozilla/5.0 (Linux; U; Android-4.0.3; en-us; Xoom Build/IML77) AppleWebKit/535.7 (KHTML, like Gecko) CrMo/16.0.912.75 Safari/535.7",
 			"Mozilla/5.0 (Linux; U; Android-4.0.3; en-us; Galaxy Nexus Build/IML74K) AppleWebKit/535.7 (KHTML, like Gecko) CrMo/16.0.912.75 Mobile Safari/535.7"
 	};
+
+	String[] blackberry10Clients = new String[] {
+			"Mozilla/5.0 (BB10; Touch) AppleWebKit/537.10+ (KHTML, like Gecko) Version/10.0.9.1425 Mobile Safari/537.10+"
+	};
 	
 	String[] chrome = new String[] {
 			"Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.9 (KHTML, like Gecko) Chrome/5.0.310.0 Safari/532.9",
@@ -367,6 +371,7 @@ public class BrowserTest {
 		testAgents(lynxClient, Browser.LYNX);
 		testAgents(konqueror, Browser.KONQUEROR);
 		testAgents(chromeMobile, Browser.CHROME_MOBILE);
+		testAgents(blackberry10Clients, Browser.BLACKBERRY10);
 		testAgents(chrome, Browser.CHROME);
 		testAgents(chrome8, Browser.CHROME8);
 		testAgents(chrome9, Browser.CHROME9);
