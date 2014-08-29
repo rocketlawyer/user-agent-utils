@@ -47,9 +47,9 @@
 
 	<distributionManagement>
 	    <repository>
-	        <id>internal.repo</id>
-	        <name>Temporary Staging Repository</name>
-	        <url>file://${project.build.directory}/mvn-repo</url>
+	        <id>thirdparty</id>
+	        <name>RL Thirdparty repo</name>
+	        <url>http://f1tst-linbld/nexus/repositories/thirdparty</url>
 	    </repository>
 	</distributionManagement>
 
